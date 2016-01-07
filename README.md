@@ -38,3 +38,10 @@
    
 7. Press `Cmd+B` to compile the typescript.
 
+8. Install karma, mocha, chai and sinon
+
+    ```shell
+    npm install --save-dev karma mocha chai sinon
+    ```
+    
+    

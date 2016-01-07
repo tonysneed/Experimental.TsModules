@@ -1,6 +1,8 @@
-class Startup {
-    public static main(): number {
-        console.log('Hello World');
-        return 0;
+module App {
+    export class Startup {
+        public static main(): number {
+            console.log('Hello World');
+            return 0;
+        }
     }
 }
