@@ -38,10 +38,39 @@
    
 7. Press `Cmd+B` to compile the typescript.
 
-8. Install karma, mocha, chai and sinon
+8. Install karma and jasmine
 
     ```shell
-    npm install --save-dev karma mocha chai sinon
+    npm install --save-dev karma jasmine-core phantomjs karma-jasmine karma-phantomjs-launcher
     ```
     
+9. Install karma-cli globally.
+
+    ```shell
+    npm install karma-cli -g
+    ```
     
+10. Configure karma
+
+    ```shell
+    karma init
+    ```
+
+  - Specify configuration parameters
+  
+    + `jasmine` for the testing framework
+    + `PhantomJS` for the browser
+    + `src/js/*.js` for input files
+    + `false` for `singleRun`
+    
+11. Install `tsd` globally.
+
+    ```shell
+    npm install tsd -g
+    ```
+
+12. Install typings for jasminei.
+
+    ```shell
+    tsd install jasmine
+    ```

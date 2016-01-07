@@ -5,6 +5,11 @@
         "preserveConstEnums": true,
         "sourceMap": true,
         "outDir": "./src/js/",
-        "module": "commonjs"
-    }
+        "module": "commonjs",
+        "declaration": true
+    },
+    "files": [
+        "src/ts/greeter.ts",
+        "src/ts/world.ts"
+    ]
 }
