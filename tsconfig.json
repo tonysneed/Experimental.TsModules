@@ -4,6 +4,12 @@
         "removeComments": true,
         "preserveConstEnums": true,
         "sourceMap": true,
-        "outDir": "./src/js/"
-    }
+        "outDir": "./src/js/",
+        "module": "commonjs",
+        "declaration": true
+    },
+    "files": [
+        "src/ts/greeter.ts",
+        "src/ts/world.ts"
+    ]
 }
